@@ -1,52 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Sorting Visualizer</title>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-
+  <body>
     <main class="app">
+      <h1>Sorting Visualizer</h1>
 
-        <h1>Sorting Visualizer</h1>
+      <!-- Array Length -->
+      <div class="array-input">
+        <label for="array-length">Array Length</label>
+        <input type="number" id="array-length" min="2" max="15" value="7" />
+      </div>
 
-        <!-- Array Length -->
-        <div class="array-input">
-            <label for="array-length">Array Length</label>
-            <input
-                type="number"
-                id="array-length"
-                min="2"
-                max="15"
-                value="7"
-            >
-        </div>
+      <!-- Array -->
+      <div id="array"></div>
 
-        <!-- Array -->
-        <div id="array"></div>
+      <!-- Controls -->
+      <div class="controls">
+        <button id="generate-btn">Generate Array</button>
+        <button id="sort-btn">Sort Array</button>
+        <button id="reset-btn">Reset</button>
+      </div>
 
-        <!-- Controls -->
-        <div class="controls">
-            <button id="generate-btn">Generate Array</button>
-            <button id="sort-btn">Sort Array</button>
-            <button id="reset-btn">Reset</button>
-        </div>
-
-        <!-- Information -->
-        <div class="info">
-            <p>Comparing: <span id="comparison">-</span></p>
-            <p>Steps: <span id="step">0</span></p>
-        </div>
-
+      <!-- Information -->
+      <div class="info">
+        <p>Comparing: <span id="comparison">-</span></p>
+        <p>Steps: <span id="step">0</span></p>
+      </div>
     </main>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
