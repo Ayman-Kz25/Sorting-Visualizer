@@ -9,31 +9,30 @@
 
 
 /* ROOT */
-
 :root {
-    --background: #f7f7fb;
+    --background: #faf9fc;
     --surface: #ffffff;
-    --border: #e6e6ef;
+    --border: #e9e6ef;
 
-    --text: #20202a;
-    --text-soft: #6f7080;
-    --muted: #999aa8;
+    --text: #30303a;
+    --text-soft: #777585;
+    --muted: #a3a0ad;
 
-    --primary: #6366f1;
+    --primary: #a78bfa;
 
-    --red: #ff5c70;
-    --yellow: #ffb020;
-    --green: #35c98b;
-    --blue: #4f9cff;
-    --purple: #9b6cff;
-    --pink: #f25fba;
-    --orange: #ff8151;
-    --cyan: #27c6d9;
+    --red: #f7a8b8;
+    --yellow: #f6d58a;
+    --green: #9ed9b5;
+    --blue: #9fc5f8;
+    --purple: #c1a7ee;
+    --pink: #efb1d2;
+    --orange: #f5b28c;
+    --cyan: #9ddde0;
 
     --radius: 14px;
 
     --shadow:
-        0 10px 35px rgba(35, 35, 60, 0.08);
+        0 10px 35px rgba(80, 70, 100, 0.08);
 
     --transition: 180ms ease;
 }
